@@ -1,0 +1,6 @@
+{
+  "name": "Cyber Shield",
+  "description": "AI-Powered Scam Detection & Threat Intelligence Platform",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
