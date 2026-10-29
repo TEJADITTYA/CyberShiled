@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Cyber Shield",
+    "slug": "cyber-shield",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.cybershield.app",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.cybershield.app",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Cyber Shield to scan QR codes and suspicious links.",
+          "barcodeScannerEnabled": true
+        }
+      ],
+      "expo-status-bar"
+    ]
+  }
+}
